@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "types": [
+            "vitepress"
+        ],
+        "skipLibCheck": true
+    },
+    "include": [
+        "config/.vitepress/**/*",
+        "docs/**/*.md"
+    ]
+}

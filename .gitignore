@@ -1,0 +1,16 @@
+# Modules
+node_modules
+
+# Build
+**/.vitepress/cache
+**/.vitepress/dist
+**/.vitepress/.temp
+
+# Logs and env files
+*.log
+.env
+.env.local
+
+# System shits
+.DS_Store
+Thumbs.db
