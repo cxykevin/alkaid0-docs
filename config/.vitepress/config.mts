@@ -27,6 +27,7 @@ export default defineConfig({
                 { text: '关于 Alkaid0', link: '/zh/alkaid0/intro/intro' },
                 { text: '社区', link: '/zh/alkaid0/intro/community' },
                 { text: '常见问题', link: '/zh/alkaid0/intro/FAQ' },
+                { text: '路线图', link: '/zh/alkaid0/intro/roadmap' },
               ]
             },
             {
@@ -41,6 +42,16 @@ export default defineConfig({
               text: '首次启动 / Startup',
               items: [
                 { text: '首次启动', link: '/zh/alkaid0/startup/startup' },
+              ]
+            },
+            {
+              text: '配置 / Config',
+              items: [
+                { text: '配置概览', link: '/zh/alkaid0/config/config' },
+                { text: 'Model 模型配置', link: '/zh/alkaid0/config/model' },
+                { text: 'Agent AI 代理配置', link: '/zh/alkaid0/config/agent' },
+                { text: '- Rules 规则表达式编写', link: '/zh/alkaid0/config/rules' },
+                { text: 'Context 上下文及网络配置', link: '/zh/alkaid0/config/context' },
               ]
             }
           ]
