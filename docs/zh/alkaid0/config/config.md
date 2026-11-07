@@ -80,7 +80,8 @@ Alkaid0 的配置文件结构如下：
   - **[DataMask](datamask)** - 数据掩码配置
   - **[Hooks](hooks)** - 事件钩子配置
   - **[Feedback](feedback)** - 反馈 & 遥测配置
-  - **ignoreSignals** - 是否忽略系统信号，通常在 Alkaid0 在特定环境启动失败或接受到错误信号退出时使用。启用本参数后，Alkaid0 将忽略所有系统信号。
+  - **ignoreSignals** - 是否忽略系统信号，通常在 Alkaid0 在特定环境启动失败或接受到错误信号退出时使用。
+    启用本参数后，Alkaid0 将忽略所有系统信号。
 
 ## 修改配置
 

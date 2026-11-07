@@ -13,7 +13,9 @@
 如果您以用户态运行 Alkaid0，配置文件将位于 `~/.config/alkaid0/config.json`（Linux） 或 `C:\Users\{你的用户名}\.config\alkaid0\config.json`。
 :::
 
-日志一般位于配置文件同级别的 `log.log` 与 `log-{n}.log`（其中 n 为 0-99）。特别地，在 Linux 且以系统服务模式运行时，日志文件位于 `/var/log/alkaid0/`。
+日志一般位于配置文件同级别的 `log.log` 与 `log-{n}.log`（其中 n 为 0-99）。
+
+特别地，在 Linux 且以系统服务模式运行时，日志文件位于 `/var/log/alkaid0/`。
 
 ## 使用客户端链接
 
@@ -96,8 +98,17 @@ cp "/etc/alkaid0/config.json" "~/.config/alkaid0/config.json"
 
 通常客户端会帮助你完成初步配置。配置方式因客户端而异。
 
-:::info
-如果您需要手动配置，请参考 [模型配置](/zh/alkaid0/config/models)。我们更推荐您使用客户端进行配置。
+:::info 手动配置
+如果您需要手动配置，请参考 [模型配置](/zh/alkaid0/config/model)。我们更推荐您使用客户端进行配置。
+:::
+
+:::warning
+您通常需要配置一些其它参数才能使 Alkaid0 正常工作。
+
+例如：
+
+- `Agent.User`(`代理/用户名`) - 用于 Agent 执行命令的用户。通常设置为您正在使用的用户的用户名。具体请参考 [代理配置](/zh/alkaid0/config/agent#user-config)。
+
 :::
 
 ## 大功告成
