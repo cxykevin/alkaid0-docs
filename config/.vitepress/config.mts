@@ -51,7 +51,7 @@ export default defineConfig({
                 { text: 'Model 模型配置', link: '/zh/alkaid0/config/model' },
                 { text: 'Agent AI 代理配置', link: '/zh/alkaid0/config/agent' },
                 { text: '- Rules 规则表达式编写', link: '/zh/alkaid0/config/rules' },
-                { text: 'Context 上下文及网络配置', link: '/zh/alkaid0/config/context' },
+                { text: 'Context 上下文配置', link: '/zh/alkaid0/config/context' },
               ]
             }
           ]
