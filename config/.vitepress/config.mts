@@ -52,6 +52,11 @@ export default defineConfig({
                 { text: 'Agent AI 代理配置', link: '/zh/alkaid0/config/agent' },
                 { text: '- Rules 规则表达式编写', link: '/zh/alkaid0/config/rules' },
                 { text: 'Context 上下文配置', link: '/zh/alkaid0/config/context' },
+                { text: 'Server 服务端配置', link: '/zh/alkaid0/config/server' },
+                { text: 'Python Python 环境配置', link: '/zh/alkaid0/config/python' },
+                { text: 'DataMask 数据掩码配置', link: '/zh/alkaid0/config/datamask' },
+                { text: 'Hooks 事件钩子配置', link: '/zh/alkaid0/config/hooks' },
+                { text: 'Feedback 反馈 & 遥测配置', link: '/zh/alkaid0/config/feedback' },
               ]
             }
           ]
